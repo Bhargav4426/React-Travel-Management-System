@@ -1,0 +1,92 @@
+
+.homepagebackground{
+    background-image: url("./images/backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.carousel{
+    padding: 3%;
+   
+}
+.carouselitems{
+    
+    border: 8px solid white;
+}
+span{
+    color: red;
+}
+.headerhome h1{
+    text-align:center; font-size:50px; text-transform:uppercase; color:white; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+  }
+  .headerhome h1 span{
+    margin-top: 5px;
+      font-size:15px; color:white; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  .headerhome h1 span:after,.headerhome h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+.borderdiv{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.box{
+  margin: 16px;
+  box-sizing: border-box;
+}
+.carousel-caption h3 {
+  font-weight: bold;
+  font-size: 1.2em; 
+}
+
+.carousel-caption p {
+  font-size: 1em;
+  text-align:left;
+}
+@media (min-width: 390px) { 
+  .carousel-caption h3 { font-size: 0.8em;}
+  .carousel-caption p {font-size: 0.5em;} 
+  .headerhome h1{font-size: 2em;} 
+  .headerhome span{font-size: 2em;} 
+  }
+@media (min-width: 576px) { 
+.carousel-caption h3 { font-size: 1.3em;}
+.carousel-caption p {font-size: 1.1em;}  
+.headerhome h1{font-size: 2em;} 
+.headerhome span{font-size: 2em;} 
+}
+@media (min-width: 768px) {
+.carousel-caption h3 { font-size: 1.4em;}
+.carousel-caption p {font-size: 1.2em;}  
+.headerhome h1{font-size: 3em;} 
+.headerhome span{font-size: 3em;} 
+}
+@media (min-width: 992px) {
+.carousel-caption h3 { font-size: 1.5em;}
+.carousel-caption p {font-size: 1.3em;}  
+.headerhome h1{font-size: 3.5em;} 
+.headerhome span{font-size: 3.5em;} 
+}
+@media (min-width: 1200px) { 
+.carousel-caption h3 { font-size: 1.6em;}
+.carousel-caption p {font-size: 1.4em;}  
+.headerhome h1{font-size: 4em;} 
+.headerhome span{font-size: 4em;} 
+}

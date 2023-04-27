@@ -1,0 +1,20 @@
+
+.loginbackground{
+  background-image: url("./images/backgroundimage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+#divrow{
+  margin-left:10%;
+  margin-right:10%;
+}
+.paragraphlogin{
+  color: red;
+  font-size: small;
+}

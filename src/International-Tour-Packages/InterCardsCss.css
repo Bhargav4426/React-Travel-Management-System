@@ -1,0 +1,149 @@
+
+.buttoncard:hover{
+    transform:scale(1.1);
+}
+.buttoncard{
+    transition: transform.5s;
+}
+
+.cardsbackgroundinter{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./InternationalTourPackagesImages/backgroundimageinternational.jpg");
+}
+.cardimg{
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.child1{
+    margin-right:10px;
+}
+.child2{
+    margin-left: 30px;
+}
+b{
+    font-size: 20px;
+}
+span{
+    color: red;
+}
+.spanrupee{
+    color: black;
+}
+.boldhead{
+    font-size: 13px;
+}
+.person{
+    color: gray;
+}
+.daysbadge{
+    padding: 5px 10px;
+    background: var(--card-d-n-info-bg-color, #000000);
+    border-radius: 13px;
+    color: var(--card-d-n-info-color, #ffffff);
+    position: absolute;
+    margin-top: -4%;
+    right: 40%;
+    z-index: 1;
+}
+.header h1{
+    text-align:center; font-size:50px; text-transform:uppercase; color:white; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+  }
+  .header h1 span{
+    margin-top: 5px;
+      font-size:15px; color:white; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  .header h1 span:after,.header h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box{
+    margin: 16px;
+    box-sizing: border-box;
+    padding-bottom: 3%;
+}
+@media (min-width: 390px) { 
+   
+    .header h1{font-size: 2em;} 
+    .header span{font-size: 2em;} 
+    .header h1{font-size: 2em;} 
+    .header span{font-size: 2em;} 
+    .cardd:hover{
+        transform:none;
+        border:#ffffff
+        
+    }
+    .cardd{
+        transition:none
+    }
+    }
+    @media (min-width: 576px) {  
+        .header h1{font-size: 2em;} 
+        .header span{font-size: 2em;} 
+        .cardd:hover{
+            transform:scale(1.1);
+            border: #ffffff;
+            
+        }
+        .cardd{
+            transition: transform.5s;
+        }
+        }
+        @media (min-width: 768px) { 
+        .header h1{font-size: 3em;} 
+        .header span{font-size: 3em;} 
+        .cardd:hover{
+            transform:scale(1.1);
+            border: #ffffff;
+            
+        }
+        .cardd{
+            transition: transform.5s;
+        }
+        }
+        @media (min-width: 992px) {
+        .header h1{font-size: 3.5em;} 
+        .header span{font-size: 3.5em;} 
+        .cardd:hover{
+            transform:scale(1.1);
+            border: #ffffff;
+            
+        }
+        .cardd{
+            transition: transform.5s;
+        }
+        }
+        @media (min-width: 1200px) { 
+        .header h1{font-size: 4em;} 
+        .header span{font-size: 4em;} 
+        .cardd:hover{
+            transform:scale(1.1);
+            border: #ffffff;
+            
+        }
+        .cardd{
+            transition: transform.5s;
+        }
+        }       
+
+

@@ -1,0 +1,94 @@
+.dotted-border {
+  border-style: dashed;
+  background-color: white;
+  width: 50%;
+  font-weight: 700;
+
+}
+.deletesuccess{
+	width:100%;
+ 	padding:20px;
+	text-align:center;
+}
+.deletesuccess img{
+	width:76px;
+	height:auto;
+	margin:0 auto;
+	display:block;
+	margin-bottom:25px;
+}
+
+.deletesuccess h1{
+	font-size: 42px;
+    margin-bottom: 25px;
+	color:#5C5C5C;
+}
+
+.cupon-pop{
+	font-size: 25px;
+    margin-bottom: 40px;
+	background-color: white;
+	color:#222;
+	display:inline-block;
+	text-align:center;
+	padding:10px 20px;
+	border:2px dashed #222;
+	clear:both;
+	font-weight:normal;
+}
+.cupon-pop span{
+	color:red;
+}
+.registersuccessdiv{
+	background-color:#dfd;
+	
+}
+#backbutton{
+margin: 2%;
+width: 8%;
+padding: 0.5%;
+margin-top: 0.5%;
+}
+
+   @media (min-width: 390px) { 
+	#backbutton{
+		margin: 2%;
+		width: 30%;
+		padding: 2%;
+		margin-bottom: 10%;
+		}
+   }
+   @media (min-width: 576px) { 
+	#backbutton{
+		margin: 2%;
+		width: 30%;
+		padding: 1.5%;
+		margin-bottom: 10%;
+		}
+   }
+   @media (min-width: 768px) { 
+	#backbutton{
+		margin: 2%;
+		width: 20%;
+		padding: 0.8%;
+		margin-bottom: 8%;
+		}
+   }
+   @media (min-width: 992px) { 
+	#backbutton{
+		margin: 2%;
+		width: 20%;
+		padding: 0.5%;
+		margin-bottom: 5%;
+		}
+   }
+   @media (min-width: 1200px) {
+	#backbutton{
+		margin: 2%;
+		width: 8%;
+		padding: 0.5%;
+		margin-top: 0.5%;
+		}
+	}
+
+   

@@ -1,0 +1,127 @@
+.gradient-custom {
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+  
+  }
+  #tourregisterlogo{
+    margin: 10%;
+    margin-top: 50%;
+  }
+  .card-custom {
+  border-bottom-left-radius: 10% 50%;
+  border-top-left-radius: 10% 50%;
+  background-color: #f8f9fa ;
+ 
+  }
+  #resetbutton{
+    margin-right: 10px;
+    
+  }
+  #submittbutton{
+    margin-left: 10px;
+  }
+  
+  .tourupdatebackground{
+    background-image: url("./images/toursregisterbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .paragraphregister{
+    color: red;
+    font-size: small;
+   }
+  .input-custom {
+  background-color: white ;
+  }
+  
+  .white-text {
+  color: hsl(52, 0%, 98%);
+  font-weight: 100 ;
+  font-size: 14px;
+  }
+
+  .back-button {
+  font-weight: 700;
+  color:white ;
+  margin-top: 50px ;
+  }
+
+@media (min-width: 390px) { 
+  .row {display:flow-root}
+  .card-custom {
+    border-bottom-left-radius: 0% 0%;
+    border-top-left-radius: 0% 0%;
+    background-color: #f8f9fa ;
+    margin-bottom: 5%;
+    border-radius: 1%;
+    }
+  #tourregisterlogo{
+    margin: 1%;
+    margin-top: 5%;
+  }
+  .back-button {
+    margin-top: -50px ;
+    margin-bottom: 10px;
+  }
+  }
+  @media (min-width: 576px) { 
+    .row {display:flex}
+    .card-custom {
+    
+      background-color: #f8f9fa ;
+      margin-bottom: 5%;
+      border-radius: 1%;
+      }
+    
+    }
+    @media (min-width: 768px) {
+      .row {display:flex}
+      .card-custom {
+        border-bottom-left-radius: 10% 50%;
+        border-top-left-radius: 10% 50%;
+        background-color: #f8f9fa ;
+        margin-bottom: 0%;
+        
+        }
+      #tourregisterlogo{
+        margin: 10%;
+        margin-top: 100%;
+      }
+      .back-button {
+        margin-top: 50%;
+      }
+    }
+    @media (min-width: 992px) {
+      .row {display:flex}
+      .card-custom {
+        border-bottom-left-radius: 10% 50%;
+        border-top-left-radius: 10% 50%;
+        background-color: #f8f9fa ;
+        margin-bottom: 0%;
+        }
+      #tourregisterlogo{
+        margin: 10%;
+        margin-top: 60%;
+      }
+      .back-button {
+        margin-top: 50%;
+      }
+    }
+    @media (min-width: 1200px) { 
+      .row {display:flex}
+      .card-custom {
+        border-bottom-left-radius: 10% 50%;
+        border-top-left-radius: 10% 50%;
+        background-color: #f8f9fa ;
+        margin-bottom: 0%;
+        }
+      #tourregisterlogo{
+        margin: 10%;
+        margin-top: 50%;
+      }
+      .back-button {
+        margin-top: 20%;
+      }
+    }
+ 
+   

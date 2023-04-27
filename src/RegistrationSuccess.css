@@ -1,0 +1,200 @@
+.thank-you-pop{
+	width:100%;
+ 	padding:20px;
+	text-align:center;
+}
+.thank-you-pop img{
+	width:76px;
+	height:auto;
+	margin:0 auto;
+	display:block;
+	margin-bottom:25px;
+}
+
+.thank-you-pop h1{
+	font-size: 42px;
+    margin-bottom: 25px;
+	color:white;
+	
+}
+.thank-you-pop p{
+	font-size: 20px;
+    margin-bottom: 27px;
+	color:white;
+}
+.thank-you-pop h3.cupon-pop{
+	font-size: 25px;
+    margin-bottom: 40px;
+	background-color: white;
+	color:#222;
+	display:inline-block;
+	text-align:center;
+	padding:10px 20px;
+	border:2px dashed #222;
+	clear:both;
+	font-weight:normal;
+}
+.thank-you-pop h3.cupon-pop span{
+	color:red;
+}
+.registersuccessdiv{
+	 background-image: url("./images/toursregisterbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+.btn-registersuccess{
+margin:1px;
+}
+
+.getdetailsbackground{
+  background-color: #dfd;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+}
+#divrow{
+  margin-left:10%;
+  margin-right:10%;
+}
+#pheading{
+  color: red;
+  width: 100%;
+  
+
+}
+
+#containerdiv{
+	padding-bottom: 1%;
+	
+}
+#dateid{
+	margin-top: 5%;
+   text-align: end;
+   padding-right: 5%;
+}
+
+@media (min-width: 390px) { 
+	#pheading{margin-bottom: -10%;font-size: 70%;}
+	#dateid {
+		margin-top: -20%;
+	    font-size: -10rem;
+	   padding-right: 5%; 
+	  
+	}
+	#invoiceid{font-size: 70%;}
+	#innerdateid{font-size: 70%;}
+	#tableid{
+		font-size: 4px;
+	}
+	#footerid{
+		font-size: 6px;
+		
+	}
+	#footerinn{
+		font-size: 7px;
+	}
+	}
+	@media (min-width: 576px) { 
+		#pheading{margin-bottom: -10%;font-size: 90%;}
+	#dateid {
+		margin-top: -20%;
+	    
+	   padding-right: 5%; 
+	  
+	}
+	#invoiceid{font-size: 90%;}
+	#innerdateid{font-size: 90%;}
+		#tableid{
+			font-size: 12px;
+		}
+		#footerid{
+			font-size: 12px;
+		}
+		#footerinn{
+			font-size: 12px;
+		}
+		#imgstyle{
+		
+			margin-left: 0%;
+		}
+	  
+	  }
+	  @media (min-width: 768px) {
+		#pheading{margin-bottom: -10%;font-size: 100%;}
+		#dateid{
+			margin-top: 5%;
+		   text-align: end;
+		   padding-right: 5%;
+		}
+		#tableid{
+			font-size: 12px;
+		}
+		#footerid{
+			font-size: 12px;
+		}
+		#footerinn{
+			font-size: 12px;
+		}
+		#imgstyle{
+		
+			margin-left: 0%;
+		}
+		
+	  }
+	  @media (min-width: 992px) {
+		#containerdivv{max-width: 992px;
+		margin-left: 3%;
+	margin-right: 3%;}
+		#dateid{
+			margin-top: 5%;
+		   text-align: end;
+		   padding-right: 5%;
+		}
+		#tableid{
+			font-size: 15px;
+		}
+		#footerid{
+			font-size: 15px;
+		}
+		#footerinn{
+			font-size: 15px;
+		}
+		#imgstyle{
+		
+			margin-left: 0%;
+		}
+	  }
+	  @media (min-width: 1200px) { 
+		#pheading{margin-bottom: -10%;font-size: 150%;}
+		#invoiceid{font-size: 150%;}
+	#innerdateid{font-size: 150%;}
+		#containerdivv{max-width: 1200px;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+		#dateid{
+			margin-top: 5%;
+		   text-align: end;
+		   padding-right: 5%;
+		}
+		#tableid{
+			font-size: 19px;
+		}
+		#footerid{
+			font-size: 19px;
+		}
+		#footerinn{
+			font-size: 19px;
+		}
+		#imgstyle{
+		
+			margin-left: 0%;
+		}
+	  }
+   
