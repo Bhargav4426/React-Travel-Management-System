@@ -9,7 +9,7 @@ const UpdateSuccessNavBar=()=>{
     const location=useLocation();
     const updateData = location.state?.updateData || {};
     const Update=()=>{
-      axios.get(`http://localhost:1000/details/getone/${updateData.customerId}`).then((posRes)=>{
+      axios.get(`http://localhost:2000/details/getone/${updateData.customerId}`).then((posRes)=>{
         const {data}=posRes;
         console.log(data)
         navigate('/updatedetails', { state: { getData: data } })
@@ -21,7 +21,7 @@ const UpdateSuccessNavBar=()=>{
       })
     }
     const Delete=()=>{
-      axios.delete(`http://localhost:1000/details/delete/${updateData.customerId}`).then((posRes)=>{
+      axios.delete(`http://206.189.133.37:1000/details/delete/${updateData.customerId}`).then((posRes)=>{
         const {data}=posRes;
         console.log(data)
         navigate('/deleteSuccess', { state: { getId: updateData.customerId } });

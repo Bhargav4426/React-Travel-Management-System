@@ -16,7 +16,7 @@ const UpdateDetails=()=>{
   const { errors } = formState;
   
   const onSubmit = (data) => {
-    axios.put(`http://localhost:1000/details/update/${getData.customerId}`,data).then((posRes)=>{
+    axios.put(`http://localhost:2000/details/update/${getData.customerId}`,data).then((posRes)=>{
       const {data}=posRes;
       console.log(data)
       navigate('/updatesuccess', { state: { updateData: data } })

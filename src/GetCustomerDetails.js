@@ -4,7 +4,7 @@ import './GetCustomerDetails.css'
 const GetCustomerDetails=()=>{
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = (data) => {
-        axios.get('http://localhost:1000/details/getone/{id}')
+        axios.get('http://localhost:2000/details/getone/{id}')
       console.log(data);
   }
 return(

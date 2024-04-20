@@ -17,7 +17,7 @@ const TourRegistrationForm=()=>{
   });
   const { errors } = formState;
   const onSubmit = (data) => {
-    axios.post('http://localhost:1000/details/save',data).then((posRes)=>{
+    axios.post('http://localhost:2000/details/save',data).then((posRes)=>{
       const {data}=posRes;
       console.log(data)
       navigate('/registrationsuccess', { state: { postData: data } })

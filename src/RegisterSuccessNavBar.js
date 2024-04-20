@@ -9,7 +9,7 @@ const RegisterSuccessNavBar=()=>{
     const location=useLocation();
     const postData = location.state?.postData || {};
     const Update=()=>{
-      axios.get(`http://localhost:1000/details/getone/${postData.customerId}`).then((posRes)=>{
+      axios.get(`http://localhost:2000/details/getone/${postData.customerId}`).then((posRes)=>{
         const {data}=posRes;
         console.log(data)
         navigate('/updatedetails', { state: { getData: data } })
@@ -21,7 +21,7 @@ const RegisterSuccessNavBar=()=>{
       })
     }
     const Delete=()=>{
-      axios.delete(`http://localhost:1000/details/delete/${postData.customerId}`).then((posRes)=>{
+      axios.delete(`http://localhost:2000/details/delete/${postData.customerId}`).then((posRes)=>{
         const {data}=posRes;
         console.log(data)
         navigate('/deleteSuccess', { state: { getId: postData.customerId } });
